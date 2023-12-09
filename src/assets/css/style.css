@@ -437,6 +437,9 @@ p {
 }
 
 .primary-header .nav .navbar li a {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    font-family: var(--ff-primary-100);
     font-weight: var(--fw-medium);
     color: black;
 }
