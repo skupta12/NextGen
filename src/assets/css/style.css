@@ -170,6 +170,15 @@ body {
     color: black;
 }
 
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--clr-primary-200);
+    border-radius: 50px; 
+}
+
 /* =========================================================== */
 /* Typography */
 /* =========================================================== */
@@ -737,6 +746,7 @@ p {
 	-webkit-transform: scale3d(3.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
 	transform: scale3d(3.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
 }
+
 .discover-effect:hover:before {
 	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
 	transform: scale3d(3.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
