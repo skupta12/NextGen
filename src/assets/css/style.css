@@ -170,11 +170,11 @@ body {
     color: black;
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 8px;
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color: var(--clr-primary-200);
     border-radius: 50px; 
 }
