@@ -236,7 +236,7 @@ p {
 
 .container {
     max-width: 1200px;
-    margin-inline: auto;
+    margin: 0 auto;
     padding: var(--size-400);
 }
 
@@ -1417,4 +1417,4 @@ p {
     .logo-block p {
         margin-bottom: var(--size-400);
     }
-} 
+}
