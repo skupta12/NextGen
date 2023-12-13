@@ -288,18 +288,7 @@
     
     addEventOnElem(navLinks, "click", closeNavbar);
     
-    const header = document.querySelector("[data-header]");
-
-const activeElem = function () {
-  if (window.scrollY > 100) {
-    header.classList.add("active");
-  } else {
-    header.classList.remove("active");
-  }
 }
-
-addEventOnElem(window, "scroll", activeElem);
-  }
 
  
 
@@ -311,11 +300,11 @@ addEventOnElem(window, "scroll", activeElem);
     GOS.gallery();
     GOS.scroll_to_top();
     GOS.accordion();
-    // GOS.header_change();
+    GOS.header_change();
   });
 
   $(window).on("scroll", function () {
-    // GOS.header_change();
+    GOS.header_change();
   });
 
   // Window on Resize

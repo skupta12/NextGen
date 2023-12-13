@@ -485,7 +485,7 @@ p {
     margin: 5px 0;
 }
 
-.primary-header.active {
+.primary-header.header-onscroll {
     background-color: white;
     box-shadow: var(--shadow-1);
 }
@@ -558,9 +558,14 @@ p {
   border-block-end: 1px solid var(--clr-border-100);
 }
 
-.navbar-list { padding: 15px 20px; font-family: var(--ff-primary-100); letter-spacing: 0.5px; }
+.navbar-list { 
+    padding: 15px 20px; 
+    font-family: var(--ff-primary-100); 
+    letter-spacing: 0.5px; }
 
-.navbar-item:not(:last-child) { border-block-end: 1px solid var(--clr-border-100); }
+.navbar-item:not(:last-child) { 
+    border-block-end: 1px solid var(--clr-border-100); 
+}
 
 .navbar-link {
     color: var(--clr-primary-300);
@@ -624,6 +629,14 @@ p {
     }
 
 }
+
+@media(min-width: 640px) {
+    .primary-header .container {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+}
+
 
 /* =========================================================== */
 /* Home Section
