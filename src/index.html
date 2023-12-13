@@ -20,44 +20,53 @@
 
 <body>
     <!-- Header -->
-    <header class="primary-header" id="primary-header">
-        <div class="container header-container scroll-it">
-            <!-- LOGO -->
-            <div class="header-logo logo">
-                <img src="assets/img/logo.svg" alt="">
+    <header class="primary-header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/img/logo.svg" width="190" height="60" alt="EduWeb logo">
                 <h4>NextGen.</h4>
-            </div>
-            <!-- BURGER MENU-->
-            <button type="button" class="burger-menu" aria-label="Burger Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav class="nav">
-                <ul class="navbar">
-                    <li>
-                        <a class="active" data-scroll-nav="0" href="#">Home</a>
+            </a>
+            <nav class="navbar" data-navbar>
+                <div class="wrapper">
+                    <div class="header-logo logo">
+                        <img src="assets/img/logo.svg" alt="">
+                        <h4>NextGen.</h4>
+                    </div>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <img src="assets/img/close.svg" alt="">
+                    </button>
+                </div>
+                <ul class="navbar-list scroll-it">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link" data-scroll-nav="0" data-nav-link>Home</a>
                     </li>
-                    <li>
-                        <a data-scroll-nav="1" href="#">Our Brands</a>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link" data-scroll-nav="1" data-nav-link>About</a>
                     </li>
-                    <li>
-                        <a data-scroll-nav="2" href="#">Services</a>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link" data-scroll-nav="2" data-nav-link>Courses</a>
                     </li>
-                    <li>
-                        <a data-scroll-nav="3" href="#">FAQ</a>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link" data-scroll-nav="3" data-nav-link>Blog</a>
                     </li>
-                    <li>
-                        <a data-scroll-nav="4" href="#">Testimonial</a>
-                    </li>
-                    <li>
-                        <a data-scroll-nav="5" href="#">CTA</a>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link" data-scroll-nav="4" data-nav-link>Contact</a>
                     </li>
                 </ul>
             </nav>
-            <div class="btn-1">
-                <a href="#">Get Started Free</a>
+            <div class="header-actions">
+                <div class="btn-1">
+                    <a href="#">Get Started</a>
+                </div>
+                <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+                    <div type="button" class="burger-menu" aria-hidden="true">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
             </div>
+            <div class="overlay" data-nav-toggler data-overlay></div>
         </div>
     </header>
     <!-- Main Wrapper -->
