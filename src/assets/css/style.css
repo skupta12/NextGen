@@ -541,10 +541,10 @@ p {
 }
 
 .nav-close-btn {
-    width: 25px;
-    height: 25px;
-    box-shadow: var(--shadow-2);
-    padding: 8px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    padding: 12px;
     border-radius: 50%;
   }
   
@@ -951,6 +951,7 @@ p {
     }
 
     .pos-item:nth-child(1) {
+        margin-bottom: var(--size-700);
         padding-right: 0;
         grid-column: span 12 / span 12;
     }
@@ -1016,6 +1017,7 @@ p {
     }
 
     .grow-item:nth-child(1) {
+        margin-top: var(--size-700);
         order: 2;
         grid-column: span 12 / span 12;
         padding-right: 0;
@@ -1176,6 +1178,7 @@ p {
     }
 
     .start-box .accordion-box {
+        margin-bottom: var(--size-700);
         grid-column: span 12 / span 12;
     }
 
