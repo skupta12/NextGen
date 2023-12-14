@@ -464,8 +464,8 @@ p {
     left: 0;
     width: 100%;
     z-index: 4;
-    transition: 0.2s var(--cubic-out);
-    border-bottom: 1px solid var(--clr-border-100);
+    padding: 20px 0;
+    transition: all 0.4s;
 }
 
 .primary-header .burger-menu {
@@ -487,6 +487,7 @@ p {
 }
 
 .primary-header.header-onscroll {
+    padding: 0;
     background-color: white;
     box-shadow: var(--shadow-1);
 }
