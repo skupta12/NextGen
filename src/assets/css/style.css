@@ -482,6 +482,7 @@ p {
 }
 
 .primary-header .burger-menu span:nth-child(2) {
+    width: 25px;
     margin: 5px 0;
 }
 
