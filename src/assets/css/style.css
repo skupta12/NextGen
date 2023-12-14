@@ -24,7 +24,7 @@
     --ff-body: var(--ff-primary-200);
 
     /**
-   * font size
+   * font sizes
    */
 
     --fs-300: 0.438rem;
@@ -57,6 +57,17 @@
     --size-700: 3rem;
     --size-800: 4rem;
     --size-900: 5rem;
+
+    /**
+   * container && section
+   */
+
+   --container-padding-lg: var(--size-600);
+   --container-padding-sm: var(--size-400);
+
+   --section-padding-lg: var(--size-800);
+   --section-padding-md: var(--size-700);
+   --section-padding-sm: var(--size-600);
 
   /**
    * shadow
@@ -237,16 +248,15 @@ p {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: var(--size-400);
+    padding: var(--container-padding-sm);
 }
 
 /* ------------------------- */
 /* CONTAINER MEDIA QUERIES */
 
-
 @media (min-width: 640px) {
     .container {
-        padding: var(--size-600);
+        padding: var(--container-padding-lg);
     }
 }
 
@@ -255,8 +265,8 @@ p {
 /* =========================================================== */
 
 .section {
-    padding-top: var(--size-600);
-    padding-bottom: var(--size-600);
+    padding-top: var(--section-padding-sm);
+    padding-bottom: var(--section-padding-sm);
 }
 
 .section-text h3 {
@@ -280,15 +290,15 @@ p {
 
 @media (min-width: 768px) {
     .section {
-        padding-top: var(--size-700);
-        padding-bottom: var(--size-700);
+        padding-top: var(--section-padding-md);
+        padding-bottom: var(--section-padding-md);
     }
 }
 
 @media (min-width: 1024px) {
     .section {
-        padding-top: var(--size-800);
-        padding-bottom: var(--size-800);
+        padding-top: var(--section-padding-lg);
+        padding-bottom: var(--section-padding-lg);
     }
 }
 
@@ -372,7 +382,6 @@ p {
    /* ------------------------- */
    /* BUTTON MEDIA QUERIES */
 
-
 @media(max-width: 1024px) {
     .btn-1 {
         display: none;
@@ -420,7 +429,6 @@ p {
 
    /* ------------------------- */
    /* EFFECT MEDIA QUERIES */
-
 
 @media(max-width: 640px) {
     .left-effects {
@@ -599,7 +607,6 @@ p {
    /* ------------------------- */
    /* HEADER MEDIA QUERIES */
 
-
 @media(min-width: 1024.98px) {
 
     .primary-header {
@@ -751,7 +758,6 @@ p {
    /* ------------------------- */
    /* HOME MEDIA QUERIES */
 
-
 @media(max-width: 1024px) {
     .home-section {
         padding-top: 125px;
@@ -885,7 +891,6 @@ p {
    /* ------------------------- */
    /* DISCOVER MEDIA QUERIES */
 
-
 @media(max-width: 1024px) {
     .discover-item {
         grid-column: span 6 / span 6;
@@ -943,7 +948,6 @@ p {
 
    /* ------------------------- */
    /* POS MEDIA QUERIES */
-
 
 @media(max-width: 1024px) {
     .pos-item .fancy-shape img {
