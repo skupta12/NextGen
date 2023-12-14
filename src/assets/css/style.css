@@ -464,7 +464,7 @@ p {
     left: 0;
     width: 100%;
     z-index: 4;
-    padding: 20px 0;
+    padding: 5px 0;
     transition: all 0.4s;
 }
 
@@ -601,6 +601,11 @@ p {
 
 
 @media(min-width: 1024.98px) {
+
+    .primary-header {
+        padding: 20px 0;
+    }
+    
     .header-action-btn:last-child,
     .navbar .wrapper,
     .overlay {
