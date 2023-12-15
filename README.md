@@ -1,5 +1,4 @@
 <h1>NextGen - HTML Showcase Template</h1>
-<h3>HTML, CSS, Javascript, jQuery</h3>
 
 <h3>Programming languages and tools: HTML, CSS, Javascript, jQuery</h3>
 
