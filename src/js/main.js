@@ -290,9 +290,6 @@
     
 }
 
- 
-
-
   $(document).ready(function () {
     GOS.scroll_it();
     GOS.swiper();
@@ -305,6 +302,10 @@
 
   $(window).on("scroll", function () {
     GOS.header_change();
+  });
+
+  $(window).on("load", function () {
+    $("#preloader").delay(300).fadeOut("slow");
   });
 
   // Window on Resize
