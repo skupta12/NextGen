@@ -727,7 +727,7 @@ p {
 /* =========================================================== */
 
 .home-section {
-    border-bottom: 1px solid var(--clr-border-100);
+    /* border-bottom: 1px solid var(--clr-border-100); */
     position: relative;
     overflow: hidden;
     padding-top: 180px;
@@ -872,7 +872,7 @@ p {
 /* =========================================================== */
 
 .brands-section {
-    border-bottom: 1px solid var(--clr-border-100);
+    /* border-bottom: 1px solid var(--clr-border-100); */
     background-color: var(--clr-primary-100);
 }
 
@@ -1406,10 +1406,10 @@ p {
 /* Primary Footer
 /* =========================================================== */
 
-.primary-footer {
+/* .primary-footer {
     border-top: 1px solid var(--clr-border-100);
     background-color: var(--clr-primary-100);
-}
+} */
 
 .footer-nav {
     display: flex;
@@ -1461,9 +1461,9 @@ p {
 /* Secondary Footer
 /* =========================================================== */
 
-.secondary-footer {
+/* .secondary-footer {
     border-top: 1px solid var(--clr-border-100);
-}
+} */
 
 .logo-block {
     display: flex;
